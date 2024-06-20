@@ -13,4 +13,21 @@ public class Board {
         this.columns = columns;
         pieces = new Piece[rows][columns];
     }
+
+    public int getRows() {
+        return this.rows;
+    }
+
+    public void setRows(int rows) {
+        this.rows = rows;
+    }
+
+    public int getColumns() {
+        return this.columns;
+    }
+
+    public void setColumns(int columns) {
+        this.columns = columns;
+    }
+
 }
