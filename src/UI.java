@@ -1,7 +1,7 @@
-import chess.CheesPiece;
+import chess.ChessPiece;
 
 public class UI {
-    public static void printBoard(CheesPiece[][] pieces) {
+    public static void printBoard(ChessPiece[][] pieces) {
         for (int i = 0; i < pieces.length; i++) {
             System.out.print((8 - i) + " ");
             for (int j = 0; j < pieces.length; j++) {
@@ -13,7 +13,7 @@ public class UI {
 
     }
 
-    private static void printPiece(CheesPiece piece) {
+    private static void printPiece(ChessPiece piece) {
         if (piece == null) {
             System.out.print("-");
         } else {
