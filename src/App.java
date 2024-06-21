@@ -1,8 +1,8 @@
-import chess.ChessMatch;
+import chess.ChessMartch;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        ChessMatch chessMartch = new ChessMatch();
+        ChessMartch chessMartch = new ChessMartch();
         UI.printBoard(chessMartch.getPieces());
     }
 }

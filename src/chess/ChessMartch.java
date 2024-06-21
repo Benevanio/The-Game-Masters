@@ -5,15 +5,15 @@ import boardgame.Position;
 import chess.pieces.King;
 import chess.pieces.Rook;
 
-public class ChessMatch {
+public class ChessMartch {
     private Board board;
 
-    public ChessMatch() {
+    public ChessMartch() {
         this.board = new Board(8, 8);
         initialSetup();
     }
 
-    public ChessMatch(Board board) {
+    public ChessMartch(Board board) {
         this.board = board;
     }
 
